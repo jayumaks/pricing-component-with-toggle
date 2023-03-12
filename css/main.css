@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+body {
+  color: #0f0d0d;
+  font-family: "Montserrat";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  max-width: 100vh;
+  margin-top: 1rem;
+  background-color: #b2b2b3;
+}
+
+.pricing-plan-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: auto;
+}
+
+@media screen and (min-width: 1000px) {
+  .pricing-plan-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: unset;
+        -ms-flex-align: unset;
+            align-items: unset;
+    margin-top: auto;
+  }
+}
+
+.plan {
+  margin: 1rem;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 25rem;
+  background-color: white;
+  -webkit-box-shadow: 30px 30px 30px -30px #958e8e;
+          box-shadow: 30px 30px 30px -30px #958e8e;
+}
+
+.plan__price--monthly, .plan__price--annual {
+  margin: 0.5rem;
+  font-size: 3.5rem;
+}
+
+.plan__price--monthly span, .plan__price--annual span {
+  font-size: 2.0rem;
+  display: inline-block;
+}
+
+.plan__features {
+  margin-bottom: 1.5rem;
+}
+
+.plan__features li {
+  border-top: 2px solid #1e1e1e;
+  border-bottom: 2px solid #1e1e1e;
+  padding: 1rem 0;
+  list-style: none;
+}
+
+.plan__btn {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 1rem 0;
+  border: none;
+  border-radius: 6px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#bdc6d5), to(#171beb));
+  background-image: linear-gradient(#bdc6d5, #171beb);
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+}
+/*# sourceMappingURL=main.css.map */
